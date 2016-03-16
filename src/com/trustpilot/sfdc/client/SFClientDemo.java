@@ -42,7 +42,7 @@ public class SFClientDemo {
 					com.sforce.soap.enterprise.sobject.Contact c = (Contact) queryResults.getRecords()[i];
 					System.out.println(c.getFirstName() +" " + c.getLastName()+ " " + c.getPhone() +" "+ c.getEmail() + " " + c.getAccount().getName());
 					
-					//TODO: Send TP Invite here
+					//TODO: Send TP Invite. Ref: https://github.com/amaendeepm/trustpilot-API-Misc/blob/master/SendTPInvites.java
 				}
 			}
 
